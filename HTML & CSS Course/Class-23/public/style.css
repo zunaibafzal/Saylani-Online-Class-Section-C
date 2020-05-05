@@ -1,0 +1,40 @@
+.box{
+    border: 2px double red;
+    width: 800px;
+    min-height: 300px;
+    max-height: 400px;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    background-color: aquamarine;
+    /* display: inline-block; */
+    /* float: left; */
+    
+}
+
+img{
+    width: 200px;
+    height: 50px;
+}
+
+
+.header{
+    width: 800px;
+    background-color: navy;
+    padding: 10px;
+    margin: 10px auto 10px auto;  
+    border-radius: 20px;  
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+/* li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li.coming-soon {
+    visibility: hidden;
+} */

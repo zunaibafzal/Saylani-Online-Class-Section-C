@@ -1,0 +1,77 @@
+div{
+    /* border: 1px solid red; */
+    text-align: center;
+    /* margin: 10px auto 10px auto; */
+}
+
+h1{
+    background-color: blue;
+    color: white;
+    text-align: center;  
+    
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    /* display: inline-block;       */
+    float: left;
+    /* margin: 10px auto; */
+ 
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    /* display: inline-block;   */
+    /* margin: 10px auto; */
+    float: left;
+ 
+}.box3{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    /* display: inline-block;   */
+    /* margin: 10px auto 10px auto; */
+    float: right;
+    /* margin: 10px auto; */ 
+}
+
+p{
+    clear: both;
+}
+
+
+/* 
+.tic{
+    position: relative;
+    top: -172px;
+    left: -130px;
+}
+
+.tac{
+    position: relative;
+    top: -172px;
+    left: -74px;
+} */
+/* .box2{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    position: relative;
+    left: 50px;
+    top: -152px;
+    z-index: -1;
+ 
+} */
+
+  /* padding: 50px; */
+    /* margin: 0px auto; */
+    /* position: relative;
+    left: 50px;
+    top: 50px; */
+
+/* h3{
+    text-align: center;  
+    
+} */

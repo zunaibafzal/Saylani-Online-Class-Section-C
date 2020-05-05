@@ -1,0 +1,22 @@
+/* color name */
+body{
+    background-color:  blue;
+}
+
+h1 {
+    color:  hsl(172,100%,50%);
+    background-color: black;
+    border: 5px solid yellowgreen;
+}
+
+
+
+
+/* hex code */
+/* h2 {
+color: #ee3e80;} */
+
+
+/* rgb value */
+/* p {
+color: rgb(100,100,90);} */

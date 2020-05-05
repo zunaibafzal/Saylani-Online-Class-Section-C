@@ -1,0 +1,62 @@
+@font-face{
+    font-family: "BangersRegular";
+    src: url("Bangers-Regular.ttf");
+}
+
+h1{
+    color: blue;
+    font-family: BangersRegular;
+    font-size: 30px;    
+    text-decoration: underline;
+    word-spacing: 50px;
+    text-align: right;
+
+}
+
+p{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic; 
+    text-transform: capitalize;
+    line-height: 50px;
+
+}
+
+ul>li{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* color name */
+/* body{
+    background-color:  blue;
+}
+
+h1 {
+    color:  hsl(172,100%,50%);
+    background-color: black;
+    border: 5px solid yellowgreen;
+}
+
+ */
+
+
+/* hex code */
+/* h2 {
+color: #ee3e80;} */
+
+
+/* rgb value */
+/* p {
+color: rgb(100,100,90);} */

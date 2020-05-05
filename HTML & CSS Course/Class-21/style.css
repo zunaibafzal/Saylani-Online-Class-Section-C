@@ -1,0 +1,65 @@
+/* h1{
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;    
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 8px 6px 10px green;
+}
+
+p{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 50px;
+    
+} */
+/* 
+p:first-line{
+    font-size: 200%;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: seagreen;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    color: lightgray;
+    /* background-color: blueviolet; 
+}
+*/
+/* button:hover{
+    background-color: blue;
+} */
+
+/* button:active{
+    background-color: red;
+} */
+
+/* button:focus{
+    background-color: greenyellow;
+} */
+
+/* li[class$="y"]{
+    color: gray;
+} */
+
+
+.box{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    
+}

@@ -1,0 +1,86 @@
+ul{
+    list-style-type: square;
+    list-style-position: inside; 
+    list-style: square inside;
+} 
+
+ol{
+     list-style-type: lower-roman; 
+    list-style-image: url("arrow.png");
+    
+}
+
+table{
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    empty-cells: show;
+}
+
+th, td{    
+    border: 1px solid gray;
+    padding: 10px;
+}
+tr.even{
+    background-color: skyblue;
+}
+
+tr.odd{
+    background-color: plum;
+}
+
+tr:hover{
+    background-color: slategray;
+    color: snow;
+} */
+
+
+ form{
+    margin: 10px auto;
+}
+
+input {
+    font-size: 120%;
+    color: #5a5854;
+    /* background-color: #f2f2f2; */
+    /* border: 1px solid #ff0000; */
+     border-radius: 5px;
+    padding: 5px 5px 10px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    display: block;
+   margin-bottom: 10px;
+} 
+input.email{
+    background-image: url("https://image.flaticon.com/icons/png/512/46/46951.png");
+    background-size: 20px;
+}
+input.password{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/lock-24-512.png");
+    background-size: 20px;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    cursor: crosshair;
+}
+
+fieldset{
+    border-radius: 20px;
+
+}
+
+legend{
+    background-color: tomato;
+    color: white;
+}
