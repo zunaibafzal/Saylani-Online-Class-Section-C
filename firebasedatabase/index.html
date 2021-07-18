@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyCH2_zKlQ-XsiA3I2tzWwgN3FUwTP1tBVs",
+          authDomain: "myfirebasedatabase-b41c2.firebaseapp.com",
+          projectId: "myfirebasedatabase-b41c2",
+          storageBucket: "myfirebasedatabase-b41c2.appspot.com",
+          messagingSenderId: "882152030896",
+          appId: "1:882152030896:web:42acdf472937040891b175",
+          measurementId: "G-2QLBM0WVSX"
+        };
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+
+
+
+    <title>Firebase Database</title>
+</head>
+<body>
+
+    <div>
+        <input type="text" name="user" id="user">
+        <br>
+        <input type="text" name="roll" id="roll">
+        <br>
+        <button onclick="saveData()">Submit</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
